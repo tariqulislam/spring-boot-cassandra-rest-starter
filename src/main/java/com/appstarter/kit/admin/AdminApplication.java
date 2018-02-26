@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableAutoConfiguration
 @ComponentScan(basePackages ="com.appstarter.kit.admin")
 public class AdminApplication {
 	public static void main(String[] args) {
